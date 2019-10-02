@@ -8,8 +8,8 @@ function helloThere(str) {
 }
 
 
-function goodbyeYou() {
-
+function goodbyeYou(str) {
+  return (str===undefined) ? 'Goodbye, stranger' : 'Goodbye, ' + str;
 }
 
 
